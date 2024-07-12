@@ -1,0 +1,26 @@
+/*
+Café nivel 3: #A0937D
+Café Nivel 2: #E7D4B5
+Café Nivel 1: #F6E6CB
+Verde : #B6C7AA
+*/
+
+body{
+    background-color: #F6E6CB;
+}
+
+section.personal{
+    height: 400px;
+}
+
+section.skills{
+    height: 400px;
+}
+
+section.experience{
+    height: 500px;
+}
+
+section.contact{
+    height: 500px;
+}

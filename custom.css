@@ -5,12 +5,60 @@ Café Nivel 1: #F6E6CB
 Verde : #B6C7AA
 */
 
+@font-face{
+    font-family: 'Playwrite Hrvatska Lijeva';
+    src:url(Fonts/Playwrite_HR_Lijeva/static/PlaywriteHRLijeva-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src:url(Fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src:url(Fonts/Poppins/Poppins-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face{
+    font-family: 'Nunito';
+    src:url(Fonts/Nunito/Nunito-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: 'Playwrite Hrvatska Lijeva';
+    font-weight: 400;
+    color: #B80000;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 body{
-    background-color: #F6E6CB;
+    background-color: #5F8670;
 }
 
 section.personal{
-    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #FF9800;
+    border-radius: 8px;
+}
+
+section p {
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-align: justify;
+    color: #820300;
 }
 
 section.skills{

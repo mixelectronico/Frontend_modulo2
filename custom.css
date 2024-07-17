@@ -1,10 +1,6 @@
 /*
-Café nivel 3: #A0937D
-Café Nivel 2: #E7D4B5
-Café Nivel 1: #F6E6CB
-Verde : #B6C7AA
+            FUENTES PARA ESTILAR
 */
-
 @font-face{
     font-family: 'Playwrite Hrvatska Lijeva';
     src:url(Fonts/Playwrite_HR_Lijeva/static/PlaywriteHRLijeva-Regular.ttf);
@@ -33,6 +29,14 @@ Verde : #B6C7AA
     font-style: normal;
 }
 
+/*
+            ESTILADO DEL PROYECTO
+*/
+
+body{
+    background-color: #5F8670;
+}
+
 h1{
     font-family: 'Playwrite Hrvatska Lijeva';
     font-weight: 400;
@@ -42,9 +46,15 @@ h1{
     padding-bottom: 50px;
 }
 
-body{
-    background-color: #5F8670;
+h3{
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-align: center;
 }
+
+/*
+            Sección Personal
+*/
 
 section.personal{
     margin-top: 20px;
@@ -61,13 +71,25 @@ section p {
     color: #820300;
 }
 
+/*
+            Sección Habilidades
+*/
+
 section.skills{
     height: 400px;
 }
 
+/*
+            SECCIÓN TRABAJOS REALIZADOS
+*/
+
 section.experience{
     height: 500px;
 }
+
+/*
+            SECCIÓN FORMULARIO DE CONTACTO
+*/
 
 section.contact{
     height: 500px;

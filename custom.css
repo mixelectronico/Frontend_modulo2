@@ -64,7 +64,7 @@ section.personal{
     border-radius: 8px;
 }
 
-section p {
+section.personal p {
     font-family: 'Poppins';
     font-weight: bold;
     text-align: justify;
@@ -76,7 +76,25 @@ section p {
 */
 
 section.skills{
-    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #820300;
+    border-radius: 8px;
+}
+
+.listblock{
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+section.skills h3{
+    color: #FF9800
+}
+
+section.skills li{
+    color: #FF9800;
 }
 
 /*

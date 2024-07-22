@@ -48,8 +48,17 @@
         <section class="experience">
             <h2>Proyectos Realizados</h2>
         </section>
-        <section class="contact">
-            <h2>Escríbeme 😊</h2>
+        <section class="contact container">
+            <h2>Escríbeme y con gusto te atenderé...</h2>
+            <form  method="post">
+                <label for="name" class="form-label">Nombre:</label><br>
+                <input type="text" id="name" name="user_name" class="form-control" /><br>
+                <label for="mail" class="form-label">Correo electrónico:</label><br>
+                <input type="email" id="mail" name="user_mail" class="form-control"/><br>
+                <label for="msg" class="form-label">Mensaje:</label><br>
+                <textarea id="msg" name="user_message" class="form-control"></textarea><br>
+                <button class="btn btn-warning">Enviar</button>
+            </form>
         </section>
     </div>
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>

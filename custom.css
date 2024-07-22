@@ -69,6 +69,10 @@ section.personal p {
     font-weight: bold;
     text-align: justify;
     color: #820300;
+    max-width: 600px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*
@@ -81,6 +85,7 @@ section.skills{
     padding: 20px;
     background-color: #820300;
     border-radius: 8px;
+    align-content: center;
 }
 
 .listblock{
@@ -102,7 +107,11 @@ section.skills li{
 */
 
 section.experience{
-    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: beige;
 }
 
 /*
